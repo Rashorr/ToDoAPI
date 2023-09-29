@@ -1,0 +1,81 @@
+//POST http://127.0.0.1:8080/todo
+POST http://127.0.0.1:8080/todo
+Content-Type: application/json
+
+{
+  "title": "Homework",
+  "description": "Match Homework",
+  "date": "2023-09-15",
+  "id": "10"
+}
+
+###
+POST localhost:8080/todo
+Content-Type: application/json
+
+{
+  "id": "20",
+  "title": "Homework",
+  "description": "German Homework",
+  "date": "2023-09-15"
+}
+
+###
+POST localhost:8080/todo
+Content-Type: application/json
+
+{
+  "id": "20",
+  "title": "Homework",
+  "description": "English Homework",
+  "date": "2023-09-15"
+}
+
+###
+POST localhost:8080/todo
+Content-Type: application/json
+
+{
+  "id": "30",
+  "title": "Homework",
+  "description": "PE Homework",
+  "date": "2023-09-15"
+}
+
+###
+POST localhost:8080/todo
+Content-Type: application/json
+
+{
+  "id": "40",
+  "title": "Homework",
+  "description": "Physics Homework",
+  "date": "2023-09-15"
+}
+
+{
+  "title": "Meeting Friends",
+  "description": "Meet friends at the park",
+  "date": "2023-09-18",
+  "id": 3
+}
+{
+  "title": "Gym",
+  "description": "Going to the gym",
+  "date": "2023-09-18",
+  "id": 5
+}
+{
+  "title": "Homework",
+  "description": "Math Homework",
+  "date": "2023-09-18",
+  "id": 2
+}
+{
+  "title": "Shopping",
+  "description": "Shopping for the week",
+  "date": "2023-09-18",
+  "id": 1
+}
+
+###
